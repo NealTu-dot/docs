@@ -51,7 +51,7 @@ export default defineUserConfig({
         // 白天和夜间模式，白天更改为true
         colorModeSwitch: true,
 
-        // 测试
+        // 测试1.1
 
         // 版本仓库地址
         repo: "https://gitee.com/passerbytt/dashboard/projects",
