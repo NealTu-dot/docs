@@ -4,6 +4,7 @@ import { defineUserConfig,defaultTheme } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
 
 
+
 export default defineUserConfig({
     // 插件配置  这里配置了那个搜索框
     plugins:[
@@ -43,7 +44,8 @@ export default defineUserConfig({
 
     //新增导航条的配置
     theme: defaultTheme({
-
+        // @ts-ignore
+        lastUpdated: "更新时间",
 
         // 侧边导航栏 不展开则 false
         //sidebar: true,
@@ -51,7 +53,6 @@ export default defineUserConfig({
         // 白天和夜间模式，白天更改为true
         colorModeSwitch: true,
 
-        // 测试1.1
 
         // 版本仓库地址
         repo: "https://gitee.com/passerbytt/dashboard/projects",
@@ -66,22 +67,26 @@ export default defineUserConfig({
                 link: '/',
             },{
                 text: '全局导航',
-                link: '/pages/前言.md'
+                link: '/guide/前言.md'
             },
             {
                 text: 'IT常见问题',
-                link: '/pages/Test1.md'
+                link: '/guide/Test1.md'
             },
             {
                 text: '此处有子路由',
                 children: [
                     {
                         text: 'Text2',
-                        link: '/pages/Test2.md'
+                        link: '/guide/Test2.md'
                     },
                     {
                         text: 'Text3',
-                        link: '/pages/Test3.md'
+                        link: '/guide/Test3.md'
+                    },
+                    {
+                        text: 'Text4',
+                        link: '/guide/Test4.md'
                     },
                 ],
 

@@ -37,6 +37,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Test4",
+    "headers": [],
+    "path": "/guide/Test4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
