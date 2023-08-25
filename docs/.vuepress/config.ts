@@ -24,7 +24,7 @@ export default defineUserConfig({
 
     // 打包后html内部资源访问路径
     // @ts-ignore
-    base:'./',
+    base:'/docs/',
 
     // 打包后的文件放哪
     dest:"dist/",
@@ -36,6 +36,7 @@ export default defineUserConfig({
     description: '回归实践,才是最好的提升',
 
 
+
     // 头部配置
     head: [['link', { rel: 'icon', href: '/images/东方融资网logo.jpg' }],
     ],
@@ -45,7 +46,7 @@ export default defineUserConfig({
     //新增导航条的配置
     theme: defaultTheme({
         // @ts-ignore
-        lastUpdated: "更新时间",
+        lastUpdatedText: "最后更新时间",
 
         // 侧边导航栏 不展开则 false
         //sidebar: true,
@@ -54,8 +55,9 @@ export default defineUserConfig({
         colorModeSwitch: true,
 
 
-        // 版本仓库地址
-        repo: "https://gitee.com/passerbytt/dashboard/projects",
+        // 版本仓库地址github链接
+        repo: "https://github.com/NealTu-dot/docs.git",
+
 
         // tab栏的图标; 图片 / 会自动去public文件夹里找图片
         logo: '/images/东方融资网logo.jpg',
@@ -91,6 +93,7 @@ export default defineUserConfig({
                 ],
 
             },
+
         ],
     }),
 })
