@@ -1,1 +1,0 @@
-import{_ as t,o as s,c as a,a as e,b as c}from"./app-74a6a886.js";const o={},n=e("h1",{id:"test3",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#test3","aria-hidden":"true"},"#"),c(" Test3")],-1),r=e("p",null,"子路由3",-1),_=[n,r];function d(i,l){return s(),a("div",null,_)}const f=t(o,[["render",d],["__file","Test3.html.vue"]]);export{f as default};
